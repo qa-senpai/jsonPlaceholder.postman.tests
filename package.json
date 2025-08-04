@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "newman run collections/jsonPlaceholder.postman_collection.json -r html"
+    "test": "newman run collections/jsonPlaceholder.postman_collection.json -r htmlextra"
   },
   "author": "Pavlo Safonov",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "newman": "^6.2.1",
-    "newman-reporter-html": "^1.0.5"
+    "newman-reporter-htmlextra": "^1.23.1"
   }
 }
